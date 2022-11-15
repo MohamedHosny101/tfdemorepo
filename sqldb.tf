@@ -3,8 +3,8 @@ resource "azurerm_mssql_server" "sqlserver" {
   resource_group_name          = azurerm_resource_group.demo.name
   location                     = azurerm_resource_group.demo.location
   version                      = "12.0"
-  administrator_login          = "sqladmin"
-  administrator_login_password = "Azure@3456"  
+  administrator_login          = ""
+  administrator_login_password = ""  
 
 }
 
