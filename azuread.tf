@@ -17,3 +17,4 @@ output "service_principal_password" {
   sensitive = true
 }
 xxx
+xxxx
